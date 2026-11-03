@@ -1,0 +1,11 @@
+name: An idea
+description: Something you'd like KiteOS Create to do.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like it to do?
+      description: The video you were making and where it got in the way helps most.
+    validations:
+      required: true

@@ -1,0 +1,45 @@
+name: Something isn't working
+description: Tell us what went wrong in KiteOS Create.
+labels: [bug]
+body:
+  - type: textarea
+    id: did
+    attributes:
+      label: What did you do?
+      description: The steps, in order. Include what you asked Kite, if you asked it something.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: KiteOS Create version
+      description: Help > About, or the file name you downloaded.
+      placeholder: "1.0.7"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Computer
+      options:
+        - Mac (Apple Silicon)
+        - Windows 10
+        - Windows 11
+    validations:
+      required: true
+  - type: input
+    id: osver
+    attributes:
+      label: macOS or Windows version
+      placeholder: "macOS 15.4"
+  - type: textarea
+    id: shots
+    attributes:
+      label: Screenshot or screen recording
+      description: Drag it in here. A screenshot helps a lot.

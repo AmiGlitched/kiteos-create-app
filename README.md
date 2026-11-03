@@ -77,7 +77,7 @@ You don't need an AI at all for the timeline, removing pauses, transcription and
 
 **[Get the latest version](https://github.com/AmiGlitched/kiteos-create-app/releases/latest)**
 
-| | |
+| Computer | What it needs |
 |---|---|
 | **Mac** | Apple Silicon (M1 or newer). macOS 15 or newer recommended |
 | **Windows** | Windows 10 or 11, 64-bit |
